@@ -16,7 +16,7 @@
     <div class="rounded-xl border border-gray-300 mt-10 py-5">
       <p class="text-center text-xl">カスタマイズ</p>
 
-      <form class="px-5" @input="generate">
+      <form class="px-5" @change="generate">
         <div class="my-3">
           <label
             for="author"
